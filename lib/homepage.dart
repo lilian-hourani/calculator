@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
     "4",
     "5",
     "6",
-    "_",
+    "-",
     "1",
     "2",
     "3",
@@ -145,7 +145,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   bool isOperator(String L) {
-    if (L == "%" || L == "/" || L == "_" || L == "+" || L == "x" || L == "=") {
+    if (L == "%" || L == "/" || L == "-" || L == "+" || L == "x" || L == "=") {
       return true;
     }
     return false;
